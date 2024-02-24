@@ -10,7 +10,6 @@ const TimelineItem: React.FC<Props> = (data: Props) => {
     title,
     skills,
     tasks,
-    description,
     time,
     isLatest = false
   } = data
