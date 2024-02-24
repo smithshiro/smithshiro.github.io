@@ -26,6 +26,7 @@ export default function Home() {
             <ul className="text-sm">
               <li>サウナ</li>
               <li>ゲーム</li>
+              <li>漫画</li>
               <li>筋トレ</li>
             </ul>
           </div>
