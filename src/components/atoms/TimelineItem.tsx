@@ -11,8 +11,8 @@ const TimelineItem: React.FC<Props> = (data: Props) => {
     skills,
     tasks,
     time,
-    isLatest = false
-  } = data
+    isLatest
+  } = data 
 
   return (
     <li className="mb-10 ms-6">            

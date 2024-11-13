@@ -74,6 +74,7 @@ export default function Home() {
               <li>Heroku</li>
               <li>Vercel</li>
               <li>Netfily</li>
+              <li>Auth0</li>
             </ul>
           </div>
           <div className="my-4">
@@ -94,6 +95,20 @@ export default function Home() {
         </div>
         <ol className="relative ml-4 border-s border-gray-200 dark:border-gray-700">                  
             <TimelineItem
+              title="イベントセミナーサービス"
+              tasks={[
+                "Auth0の設定・管理",
+                "認証フローの設計",
+                "既存DBからAuth0へのデータ移行",
+              ]}
+              skills={[
+                "Auth0",
+                "TypeScript",
+              ]}
+              time="November, 2024"
+              isLatest={true}
+            />
+            <TimelineItem
               title="電動キックボードシェアリングサービス"
               tasks={[
                 "Vue2からVue3への移行",
@@ -106,7 +121,7 @@ export default function Home() {
                 "CSS(scss, bem)",
                 "Firebase(FireStore, CloudStrage, Authentication)"
               ]}
-              time="April, 2024"
+              time="November, 2024"
               isLatest={true}
             />
             <TimelineItem
@@ -125,7 +140,7 @@ export default function Home() {
                 "CSS(scss, tailwindcss)",
                 "MySQL"
               ]}
-              time="April, 2024"
+              time="November, 2024"
               isLatest={true}
             />
             <TimelineItem
@@ -237,6 +252,11 @@ export default function Home() {
             <div className="text-md mb-2 border-b">E-Neta-Houko</div>
             <p className="text-sm mb-2">URL: <a className="underline" href="https://e-neta-houko.com" target="_blank">https://e-neta-houko.com</a></p>
             <p className="mb-2 text-xs text-gray-400">ネットで見かけるネタ画像の元ネタまとめサービス</p>
+          </div>
+          <div className="my-4">
+            <div className="text-md mb-2 border-b">つもり貯金</div>
+            <p className="text-sm mb-2">URL: <a className="underline" href="https://tumori-tyokin.com" target="_blank">https://tumori-tyokin.com</a></p>
+            <p className="mb-2 text-xs text-gray-400">使わなかったを貯金に例えて無駄遣いを減らすサポートをするサービス</p>
           </div>
           <div className="my-4">
             <div className="text-md mb-2 border-b">Emovee</div>
