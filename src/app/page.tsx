@@ -249,11 +249,6 @@ export default function Home() {
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">Works</div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b">E-Neta-Houko</div>
-            <p className="text-sm mb-2">URL: <a className="underline" href="https://e-neta-houko.com" target="_blank">https://e-neta-houko.com</a></p>
-            <p className="mb-2 text-xs text-gray-400">ネットで見かけるネタ画像の元ネタまとめサービス</p>
-          </div>
-          <div className="my-4">
             <div className="text-md mb-2 border-b">つもり貯金</div>
             <p className="text-sm mb-2">URL: <a className="underline" href="https://tumori-tyokin.com" target="_blank">https://tumori-tyokin.com</a></p>
             <p className="mb-2 text-xs text-gray-400">使わなかったを貯金に例えて無駄遣いを減らすサポートをするサービス</p>
