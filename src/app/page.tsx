@@ -1,35 +1,33 @@
 import TimelineItem from "@/components/atoms/TimelineItem";
-import { ThemeToggle } from "@/components/theme-toggle";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-gray-200 dark:bg-gray-900 p-4 min-h-screen flex flex-col items-center transition-colors">
+    <main className="bg-gray-200 p-4 min-h-screen flex flex-col items-center transition-colors">
       {/* ヘッダー部分 */}
       <div className="md:max-w-[80%] mx-auto w-full mb-4 flex justify-between items-center">
-        <h1 className="text-3xl text-gray-900 dark:text-white">Smith Portfolio</h1>
-        <ThemeToggle />
+        <h1 className="text-3xl text-gray-900">Smith Portfolio</h1>
       </div>
       
       {/* 自己紹介 */}
-      <div className="md:max-w-[80%] mx-auto w-full mb-4 bg-white dark:bg-gray-800 shadow-md rounded-md overflow-hidden transition-colors">
+      <div className="md:max-w-[80%] mx-auto w-full mb-4 bg-white shadow-md rounded-md overflow-hidden transition-colors">
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-gray-900 dark:text-white">Shiro Mise</div>
-          <p className="text-gray-700 dark:text-gray-300 text-sm">
+          <div className="font-bold text-xl mb-2 text-gray-900">Shiro Mise</div>
+          <p className="text-gray-700 text-sm">
             ウェブ開発が専門でフロントエンドからバックエンドまで幅広く経験を積んできました。<br />
             プロジェクトに取り組む際には、クライアントの要望に真摯に向き合い、満足いただけるソリューションを提供することを心がけております。
           </p>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Pros</div>
-            <ul className="text-sm text-gray-700 dark:text-gray-300">
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Pros</div>
+            <ul className="text-sm text-gray-700">
               <li>機能開発</li>
               <li>データ設計</li>
               <li>UI/UX改善</li>
             </ul>
           </div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Hobby</div>
-            <ul className="text-sm text-gray-700 dark:text-gray-300">
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Hobby</div>
+            <ul className="text-sm text-gray-700">
               <li>サウナ</li>
               <li>ゲーム</li>
               <li>漫画</li>
@@ -40,12 +38,12 @@ export default function Home() {
       </div>
       
       {/* Skill Set */}
-      <div className="md:max-w-[80%] mx-auto w-full mb-4 bg-white dark:bg-gray-800 shadow-md rounded-md overflow-hidden transition-colors">
+      <div className="md:max-w-[80%] mx-auto w-full mb-4 bg-white shadow-md rounded-md overflow-hidden transition-colors">
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-gray-900 dark:text-white">Skill Set</div>
+          <div className="font-bold text-xl mb-2 text-gray-900">Skill Set</div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Language</div>
-            <ul className="text-sm text-gray-700 dark:text-gray-300">
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Language</div>
+            <ul className="text-sm text-gray-700">
               <li>JavaScript</li>
               <li>TypeScript</li>
               <li>PHP</li>
@@ -55,8 +53,8 @@ export default function Home() {
             </ul>
           </div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Framework & Library</div>
-            <ul className="text-sm text-gray-700 dark:text-gray-300">
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Framework & Library</div>
+            <ul className="text-sm text-gray-700">
               <li>Vue.js(Nuxt.js)</li>
               <li>React.js(Next.js)</li>
               <li>jQuery</li>
@@ -66,16 +64,16 @@ export default function Home() {
             </ul>
           </div> 
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Database</div>
-            <ul className="text-sm text-gray-700 dark:text-gray-300">
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Database</div>
+            <ul className="text-sm text-gray-700">
               <li>MySQL</li>
               <li>PostgreSQL</li>
               <li>Firestore</li>
             </ul>
           </div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Infrastructure</div>
-            <ul className="text-sm text-gray-700 dark:text-gray-300">
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Infrastructure</div>
+            <ul className="text-sm text-gray-700">
               <li>AWS</li>
               <li>Sakura VPS</li>
               <li>Heroku</li>
@@ -85,8 +83,8 @@ export default function Home() {
             </ul>
           </div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Other tool</div>
-            <ul className="text-sm text-gray-700 dark:text-gray-300">
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Other tool</div>
+            <ul className="text-sm text-gray-700">
               <li>Docker</li>
               <li>Nginx</li>
               <li>Apache</li>
@@ -97,11 +95,11 @@ export default function Home() {
       </div>
       
       {/* Projects */}
-      <div className="md:max-w-[80%] mx-auto w-full bg-white dark:bg-gray-800 shadow-md rounded-md overflow-hidden transition-colors">
+      <div className="md:max-w-[80%] mx-auto w-full bg-white shadow-md rounded-md overflow-hidden transition-colors">
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-gray-900 dark:text-white">Project History</div>
+          <div className="font-bold text-xl mb-2 text-gray-900">Project History</div>
         </div>
-        <ol className="relative ml-4 border-s border-gray-200 dark:border-gray-700">                  
+        <ol className="relative ml-4 border-s border-gray-200">                  
             <TimelineItem
               title="イベントセミナーサービス"
               tasks={[
@@ -254,50 +252,50 @@ export default function Home() {
       </div>
       
       {/* Works */}
-      <div className="md:max-w-[80%] my-4 mx-auto w-full mb-4 bg-white dark:bg-gray-800 shadow-md rounded-md overflow-hidden transition-colors">
+      <div className="md:max-w-[80%] my-4 mx-auto w-full mb-4 bg-white shadow-md rounded-md overflow-hidden transition-colors">
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-gray-900 dark:text-white">Works</div>
+          <div className="font-bold text-xl mb-2 text-gray-900">Works</div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">つもり貯金</div>
-            <p className="text-sm mb-2 text-gray-700 dark:text-gray-300">URL: <a className="underline text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300" href="https://tumori-tyokin.com" target="_blank">https://tumori-tyokin.com</a></p>
-            <p className="mb-2 text-xs text-gray-400 dark:text-gray-500">使わなかったを貯金に例えて無駄遣いを減らすサポートをするサービス</p>
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">つもり貯金</div>
+            <p className="text-sm mb-2 text-gray-700">URL: <a className="underline text-blue-600 hover:text-blue-800" href="https://tumori-tyokin.com" target="_blank">https://tumori-tyokin.com</a></p>
+            <p className="mb-2 text-xs text-gray-400">使わなかったを貯金に例えて無駄遣いを減らすサポートをするサービス</p>
           </div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Emovee</div>
-            <p className="text-sm mb-2 text-gray-700 dark:text-gray-300">URL: <a className="underline text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300" href="https://emovee.org" target="_blank">https://emovee.org</a></p>
-            <p className="mb-2 text-xs text-gray-400 dark:text-gray-500">Youtubeの動画リストを作成してシェアするサービス</p>
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Emovee</div>
+            <p className="text-sm mb-2 text-gray-700">URL: <a className="underline text-blue-600 hover:text-blue-800" href="https://emovee.org" target="_blank">https://emovee.org</a></p>
+            <p className="mb-2 text-xs text-gray-400">Youtubeの動画リストを作成してシェアするサービス</p>
           </div>
         </div>
       </div>
       
       {/* Blog */}
-      <div className="md:max-w-[80%] my-4 mx-auto w-full mb-4 bg-white dark:bg-gray-800 shadow-md rounded-md overflow-hidden transition-colors">
+      <div className="md:max-w-[80%] my-4 mx-auto w-full mb-4 bg-white shadow-md rounded-md overflow-hidden transition-colors">
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-gray-900 dark:text-white">Blog</div>
+          <div className="font-bold text-xl mb-2 text-gray-900">Blog</div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Shiro Secret Base</div>
-            <p className="text-sm mb-2 text-gray-700 dark:text-gray-300">URL: <a className="underline text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300" href="https://shiro-secret-base.com" target="_blank">https://shiro-secret-base.com</a></p>
-            <p className="mb-2 text-xs text-gray-400 dark:text-gray-500">技術ブログ</p>
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Shiro Secret Base</div>
+            <p className="text-sm mb-2 text-gray-700">URL: <a className="underline text-blue-600 hover:text-blue-800" href="https://shiro-secret-base.com" target="_blank">https://shiro-secret-base.com</a></p>
+            <p className="mb-2 text-xs text-gray-400">技術ブログ</p>
           </div>
         </div>
       </div>
       
       {/* Contact */}
-      <div className="md:max-w-[80%] my-4 mx-auto w-full mb-4 bg-white dark:bg-gray-800 shadow-md rounded-md overflow-hidden transition-colors">
+      <div className="md:max-w-[80%] my-4 mx-auto w-full mb-4 bg-white shadow-md rounded-md overflow-hidden transition-colors">
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-gray-900 dark:text-white">Contact</div>
+          <div className="font-bold text-xl mb-2 text-gray-900">Contact</div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Email</div>
-            <p className="text-sm mb-2 text-gray-700 dark:text-gray-300">shirosmith1793アットgmail.com</p>
-            <p className="mb-2 text-xs text-gray-400 dark:text-gray-500">(アットを@に変換)</p>
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Email</div>
+            <p className="text-sm mb-2 text-gray-700">shirosmith1793アットgmail.com</p>
+            <p className="mb-2 text-xs text-gray-400">(アットを@に変換)</p>
           </div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">X(Twitter)</div>
-            <p className="text-sm mb-2 underline"><a className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300" href="https://twitter.com/smith39871365" target="_blank">smith39871365</a></p>
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">X(Twitter)</div>
+            <p className="text-sm mb-2 underline"><a className="text-blue-600 hover:text-blue-800" href="https://twitter.com/smith39871365" target="_blank">smith39871365</a></p>
           </div>
           <div className="my-4">
-            <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-white">Github</div>
-            <p className="text-sm mb-2 underline"><a className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300" href="https://github.com/smithshiro" target="_blank">smithshiro</a></p>
+            <div className="text-md mb-2 border-b border-gray-200 text-gray-900">Github</div>
+            <p className="text-sm mb-2 underline"><a className="text-blue-600 hover:text-blue-800" href="https://github.com/smithshiro" target="_blank">smithshiro</a></p>
           </div>
         </div>
       </div>
