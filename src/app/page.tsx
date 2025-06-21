@@ -50,6 +50,7 @@ export default function Home() {
               <li>TypeScript</li>
               <li>PHP</li>
               <li>Ruby</li>
+              <li>Python</li>
               <li>HTML</li>
               <li>CSS</li>
             </ul>
@@ -71,12 +72,16 @@ export default function Home() {
               <li>MySQL</li>
               <li>PostgreSQL</li>
               <li>Firestore</li>
+              <li>Redis</li>
             </ul>
           </div>
           <div className="my-4">
             <div className="text-md mb-2 border-b border-gray-200 dark:border-gray-600 text-gray-900 dark:text-gray-100">Infrastructure</div>
             <ul className="text-sm text-gray-700 dark:text-gray-300">
               <li>AWS</li>
+              <li>Lambda</li>
+              <li>S3</li>
+              <li>SES</li>
               <li>Sakura VPS</li>
               <li>Heroku</li>
               <li>Vercel</li>
@@ -107,11 +112,18 @@ export default function Home() {
               tasks={[
                 "Auth0の設定・管理",
                 "認証フローの設計",
-                "既存DBからAuth0へのデータ移行",
+                "新旧データの同期",
+                "会員サイトの実装",
               ]}
               skills={[
                 "Auth0",
                 "TypeScript",
+                "Lambda",
+                "S3",
+                "SES",
+                "Next.js",
+                "Python",
+                "Redis",
               ]}
               time="November, 2024"
               isLatest={true}
@@ -148,7 +160,7 @@ export default function Home() {
                 "CSS(scss, tailwindcss)",
                 "MySQL"
               ]}
-              time="November, 2024"
+              time="January, 2025"
               isLatest={true}
             />
             <TimelineItem
